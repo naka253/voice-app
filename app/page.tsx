@@ -2,17 +2,17 @@ export default function HomePage() {
   return (
     <main
       style={{
+        background: '#111',
+        color: 'white',
         height: '100vh',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
-        background: '#111',
-        color: 'white'
+        alignItems: 'center'
       }}
     >
       <div
         style={{
-          width: '300px',
+          width: '320px',
           display: 'flex',
           flexDirection: 'column',
           gap: '12px'
@@ -52,8 +52,7 @@ export default function HomePage() {
             border: 'none',
             background: '#5865F2',
             color: 'white',
-            fontWeight: 'bold',
-            cursor: 'pointer'
+            fontWeight: 'bold'
           }}
         >
           JOIN
